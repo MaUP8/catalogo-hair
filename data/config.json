@@ -1,6 +1,12 @@
 {
-  "vendedores": [],
-  "minimo": 0,
+  "vendedores": [
+    {
+      "id": "mauricio",
+      "nombre": "Mauricio Prato",
+      "tel": "59892775633"
+    }
+  ],
+  "minimo": 4500,
   "outlet": {
     "activo": false,
     "mecanica": "descuento",
