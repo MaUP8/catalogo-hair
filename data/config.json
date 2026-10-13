@@ -1,0 +1,19 @@
+{
+  "vendedores": [],
+  "minimo": 0,
+  "outlet": {
+    "activo": false,
+    "mecanica": "descuento",
+    "tramos": [
+      {
+        "meses": 3,
+        "pct": 40
+      },
+      {
+        "meses": 6,
+        "pct": 25
+      }
+    ],
+    "meses": 6
+  }
+}
