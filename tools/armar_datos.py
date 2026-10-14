@@ -45,6 +45,29 @@ def outlet(venc, skus, hoy, horizonte):
     return o
 
 
+# Segunda foto de los tonos: el envase (caja y pomo). Wella lo publica por familia, salvo Shinefinity,
+# cuya caja lleva el número del tono. Archivos en img/t/.
+POMO_LINEA = {'Koleston Perfect ME+': 'kp', 'Color Perfect': 'cp', 'Color Touch': 'ct', 'Illumina Color': 'il', 'Shinefinity': 'sh'}
+POMO_FAM = ['pure', 'rich', 'deep', 'vibrant', 'blonde', 'mix']
+
+
+def pomos(data):
+    """{'l': {línea: {familia|'*': archivo}}, 's': {sku: archivo}} con los envases que existen en img/t."""
+    hay = lambda f: os.path.exists(os.path.join(REPO, 'img/t', f + '.jpg'))
+    out = {'l': {}, 's': {}}
+    for i, l in enumerate(data['lines']):
+        t = POMO_LINEA.get(l[1])
+        if not t or not l[2]:
+            continue
+        m = {str(j): t + '-' + f for j, f in enumerate(POMO_FAM) if hay(t + '-' + f)}
+        if hay(t): m['*'] = t
+        elif m: m['*'] = m.get('1') or next(iter(m.values()))
+        if m: out['l'][str(i)] = m
+    for r in data['p']:
+        if r[3] and hay('sh-' + r[0]): out['s'][r[0]] = 'sh-' + r[0]
+    return out
+
+
 def main(src, vsrc):
     P = json.load(open(src))
     data, fuera = armar(P)
@@ -58,6 +81,7 @@ def main(src, vsrc):
     d = {x['sku']: precio_final(x) for x in P if x['sku'] in skus}
     top = [x['sku'] for x in sorted(P, key=lambda x: -(x.get('unidV12m') or 0)) if x['sku'] in skus and (x.get('unidV12m') or 0) > 0]
     o = outlet(json.load(open(vsrc)), skus - sin_outlet, hoy, HORIZONTE_MESES)
+    data['pomos'] = pomos(data)
     os.makedirs(os.path.join(REPO, 'data'), exist_ok=True)
     json.dump(data, open(os.path.join(REPO, 'data/productos.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
     disp = {'fecha': hoy.isoformat(), 'd': {k: d[k] for k in sorted(d)}, 'o': {k: o[k] for k in sorted(o)}, 'top': top}

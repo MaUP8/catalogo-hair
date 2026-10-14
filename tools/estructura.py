@@ -259,6 +259,8 @@ def armar(productos=None):
             fam = FAMSUB.get(x['sublinea'] or '', -1)
             if a == '0' and fam < 0: fam = 5
             if a == '12' and fam < 0: fam = 4
+            if fam < 0 and b:  # sin sublínea: familia por el primer reflejo (0 natural, 7 marrón, 4/5 rojos, resto Rich)
+                fam = {'0': 0, '7': 2, '4': 3, '5': 3}.get(b[0], 3 if b[0] == '6' and b[1:2] in ('4', '5', '6') else 1)
             row = [x['sku'], nombre, None, tono, fam, -1, pres(n) or '60 ml']
         else:
             nombre = limpio(x)
