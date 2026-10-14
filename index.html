@@ -211,6 +211,10 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
 .helpbody{overflow:auto;padding:6px 20px 8px}
 .helpbody ol{margin:14px 0 4px;padding-left:22px;display:grid;gap:10px}
 .helpbody li b{font-weight:600}
+.helpv{display:block;width:100%;max-height:42vh;object-fit:contain;background:#f4f4f4}
+.helpvw{position:relative;margin-top:14px}
+.snd{position:absolute;left:50%;bottom:64px;transform:translateX(-50%);font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:11px 16px;border:0;background:#000;color:#fff;cursor:pointer;white-space:nowrap}
+@media(min-width:761px){.helpgrid{display:grid;grid-template-columns:minmax(0,260px) 1fr;gap:24px;align-items:start}.helpv{max-height:62vh}.helpgrid ol{margin-top:14px}}
 @media (prefers-reduced-motion:reduce){.ph,.add{transition:none}}
 </style>
 </head>
@@ -272,10 +276,12 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
 <div class="sheet" id="help" hidden>
   <div class="panel" role="dialog" aria-modal="true" aria-labelledby="hhelp">
     <div class="phead"><h2 id="hhelp">Cómo hacer tu pedido</h2><button class="x" id="hclose" type="button" aria-label="Cerrar">×</button></div>
-    <div class="helpbody">
+    <div class="helpbody"><div class="helpgrid">
+      <div class="helpvw"><video class="helpv" id="helpv" src="img/ayuda.mp4?v=1" poster="img/ayuda.jpg?v=1" playsinline controls preload="none"></video><button class="snd" id="snd" type="button" hidden>🔊 Activar sonido</button></div>
       <ol>
         <li>Elegí la <b>marca</b> arriba y después la <b>categoría</b>: Color, Cuidado, Styling…</li>
         <li>En Color, filtrá la carta por <b>línea</b>, <b>familia</b> y <b>altura</b>, o buscá el tono directo: <b>7/1</b>.</li>
+        <li><b>Para qué es y cómo se usa</b> abre la ficha de cada producto. En los tonos, deslizá la foto para ver el envase.</li>
         <li>Tocá <b>Agregar</b> y ajustá la cantidad con + y −. El tacho lo quita del pedido.</li>
         <li>Abrí <b>Ver pedido</b>, abajo, para revisar todo.</li>
         <li><b>Realizar pedido</b> abre WhatsApp con el detalle listo para enviar a tu asesor.</li>
@@ -283,7 +289,7 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
         <li id="hmin">El pedido mínimo para enviarlo es de <b class="minv">$ 0</b> a precio profesional.</li>
         <li id="hout" hidden></li>
       </ol>
-    </div>
+    </div></div>
     <div class="pfoot"><div class="acts"><button class="btn pri" id="hok" type="button">Entendido</button></div>
       <p class="hint">Podés volver a ver esta ayuda con el botón ? de arriba.</p></div>
   </div>
@@ -413,7 +419,7 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
     var hm=/[?&]m=(\d)/.exec(location.search||''); if(hm&&META.marcas[+hm[1]]) S.m=+hm[1];
     buildBrands(); setBrand(S.m,true); bar();
     if(shared&&chosen().length){ $('ptitle').textContent='Pedido recibido'; $('sheet').hidden=false; cart() }
-    else { var seen=null; try{ seen=localStorage.getItem('hair-help') }catch(e){} if(!seen) $('help').hidden=false }
+    else { var seen=null; try{ seen=localStorage.getItem('hair-help') }catch(e){} if(!seen) helpOpen(true) }
   }).catch(function(){ $('count').textContent='No se pudo cargar el catálogo. Probá recargar la página.' });
 
   // ---------- navegación ----------
@@ -813,8 +819,15 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
   $('sheet').addEventListener('click',function(ev){ if(ev.target===this) this.hidden=true });
   $('pdf').addEventListener('click',sendPdf);
   $('iclose').addEventListener('click',function(){ $('info').hidden=true }); $('info').addEventListener('click',function(ev){ if(ev.target===this) this.hidden=true });
-  function helpClose(){ $('help').hidden=true; try{ localStorage.setItem('hair-help','1') }catch(e){} }
-  $('helpb').addEventListener('click',function(){ $('help').hidden=false }); $('hclose').addEventListener('click',helpClose); $('hok').addEventListener('click',helpClose);
+  function helpClose(){ $('help').hidden=true; try{ $('helpv').pause() }catch(e){} try{ localStorage.setItem('hair-help','1') }catch(e){} }
+  function helpOpen(auto){
+    var v=$('helpv'), sb=$('snd'); $('help').hidden=false; sb.hidden=true;
+    try{ v.currentTime=0; v.muted=(auto===true); var pr=v.play(); if(auto===true) sb.hidden=false;
+      if(pr&&pr.catch) pr.catch(function(){ v.muted=true; sb.hidden=false; var p2=v.play(); if(p2&&p2.catch) p2.catch(function(){}) }) }catch(e){}
+  }
+  $('snd').addEventListener('click',function(){ var v=$('helpv'); v.muted=false; try{ v.currentTime=0; v.play() }catch(e){} this.hidden=true });
+  $('helpv').addEventListener('volumechange',function(){ if(!this.muted) $('snd').hidden=true });
+  $('helpb').addEventListener('click',function(){ helpOpen(false) }); $('hclose').addEventListener('click',helpClose); $('hok').addEventListener('click',helpClose);
   $('help').addEventListener('click',function(ev){ if(ev.target===this) helpClose() });
   var qt; $('q').addEventListener('input',function(){ var v=this.value; clearTimeout(qt); qt=setTimeout(function(){ S.q=v; if(v){ S.c=-1; S.l=-1; S.fam=-1; S.alt=''; S.tipo=-1; buildCats(); buildFilters() } render() },120) });
   $('clear').addEventListener('click',function(){ S.sel={}; S.gift={}; save(); render(); bar() });
