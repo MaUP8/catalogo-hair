@@ -104,6 +104,14 @@ html[data-m="1"] .sect{font-family:var(--mono);font-stretch:100%;font-weight:500
 .dots i.on{background:#000}
 @media (hover:hover){.sl{display:grid}.sl>img{grid-area:1/1}.sl .p2{opacity:0;transition:opacity .2s}.pick:hover .sl .p2{opacity:1}.pick:hover .dots i:first-child{background:#fff}.pick:hover .dots i:last-child{background:#000}}
 @media (hover:none){.sl{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}.sl::-webkit-scrollbar{display:none}.sl>img{flex:0 0 100%;min-width:100%;scroll-snap-align:start}}
+.inf{align-self:flex-start;font-family:var(--mono);font-size:11px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink);background:none;border:0;padding:2px 0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.inf:hover{text-decoration-thickness:2px}
+.ibody{overflow:auto;padding:18px 20px 22px;display:grid;grid-template-columns:132px minmax(0,1fr);gap:18px;align-items:start}
+.ibody img{width:132px;height:132px;object-fit:contain;background:#fff;border:1px solid var(--line)}
+.ibody .ey{margin-bottom:6px}
+.ibody h3{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;margin:16px 0 6px}
+.ibody p{margin:0;font-size:15px;line-height:1.45}
+@media(max-width:520px){.ibody{grid-template-columns:1fr}.ibody img{width:110px;height:110px}}
 .tcode{position:absolute;left:0;bottom:0;font-family:var(--mono);font-weight:500;font-size:14px;letter-spacing:.02em;background:#fff;color:#000;padding:5px 9px;font-variant-numeric:tabular-nums}
 .txt{display:flex;flex-direction:column;gap:3px}
 .ey{font-family:var(--mono);font-size:11px;letter-spacing:.03em;text-transform:uppercase;color:var(--mute);overflow-wrap:anywhere}
@@ -255,6 +263,12 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
   </div>
 </div>
 
+<div class="sheet" id="info" hidden>
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="ititle">
+    <div class="phead"><h2 id="ititle"></h2><button class="x" id="iclose" type="button" aria-label="Cerrar">×</button></div>
+    <div class="ibody" id="ibody"></div>
+  </div>
+</div>
 <div class="sheet" id="help" hidden>
   <div class="panel" role="dialog" aria-modal="true" aria-labelledby="hhelp">
     <div class="phead"><h2 id="hhelp">Cómo hacer tu pedido</h2><button class="x" id="hclose" type="button" aria-label="Cerrar">×</button></div>
@@ -301,7 +315,7 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
   var $=function(id){return document.getElementById(id)};
   var LOGOS=['img/wella.png','img/nioxin.png','img/sebastian.png'];
   var S={m:-1,c:-1,l:-1,fam:-1,alt:'',tipo:-1,q:'',sel:{},gift:{}};
-  var META=null, ITEMS=[], BYKEY={}, DISP={}, TOP=[], RANK=null, OUTD={};
+  var META=null, ITEMS=[], BYKEY={}, DISP={}, TOP=[], RANK=null, OUTD={}, DESC={s:{},l:{}};
   var OUTLET='o';            // valor de S.c para la sección Outlet
   var VEND=[], phone='', vend=null, MINIMO=0, OCULTOS={};
   var OCFG={activo:false,mecanica:'descuento',tramos:[{meses:3,pct:40},{meses:6,pct:25}],meses:6};
@@ -315,6 +329,14 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function opt(u){ return fetch(u,{cache:'no-cache'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null}) }
   function pic(it){ return 'img/p/'+encodeURIComponent(it.sku)+'.jpg'+V }
+  function descOf(it){ return (DESC.s&&DESC.s[it.sku])||(esTono(it)&&DESC.l&&DESC.l[it.line])||null }
+  function openInfo(k){
+    var it=BYKEY[k]; if(!it) return; var t=descOf(it); if(!t) return;
+    $('ititle').textContent=(it.tono?it.tono+' · ':'')+it.name;
+    $('ibody').innerHTML='<img alt="" src="'+pic(it)+'"><div><p class="ey">'+eyebrow(it)+(it.pres?' · '+esc(it.pres):'')+'</p>'+
+      '<p>'+esc(t[0])+'</p><h3>Cómo se usa</h3><p>'+esc(t[1])+'</p></div>';
+    $('info').hidden=false;
+  }
   function pomo(it){
     var P=META&&META.pomos; if(!P) return '';
     var f=(P.s&&P.s[it.sku])||'', L=P.l&&P.l[it.line];
@@ -359,7 +381,8 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
     $('ann').textContent=(MINIMO?'Pedido mínimo '+money(MINIMO)+' · ':'')+'Pedidos por WhatsApp'+(vend?' a '+vend.nombre:'')+' · Precios con impuestos';
   }
 
-  Promise.all([fetch('data/productos.json').then(function(r){return r.json()}),fetch('data/disponibles.json',{cache:'no-cache'}).then(function(r){return r.json()}),opt('data/config.json'),opt('data/ajustes.json')]).then(function(res){
+  Promise.all([fetch('data/productos.json').then(function(r){return r.json()}),fetch('data/disponibles.json',{cache:'no-cache'}).then(function(r){return r.json()}),opt('data/config.json'),opt('data/ajustes.json'),opt('data/descripciones.json')]).then(function(res){
+    DESC=res[4]||{s:{},l:{}};
     applyCfg(res[2],res[3]);
     META=res[0]; DISP=res[1].d||{};
     OUTD=OCFG.activo?(res[1].o||{}):{};
@@ -505,7 +528,7 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
       '<span class="nm">'+esc(it.name)+'</span>'+
       '<span class="cd">'+(it.pres?esc(it.pres)+' · ':'')+'Cód. '+esc(it.sku)+'</span>'+
       (it.out?'<span class="vto">Vence '+vtoTxt(it.vto)+' · hasta '+it.out+' u.</span>':'')+
-      priceHtml(it)+'</span></button>'+
+      priceHtml(it)+'</span></button>'+(descOf(it)?'<button class="inf" type="button" data-i="1">Para qué es y cómo se usa</button>':'')+
       '<div class="ctl">'+qtyHtml(it)+'</div><div class="gft">'+giftHtml(it)+'</div></div>';
   }
   function heroPics(){
@@ -759,6 +782,7 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
 
   // ---------- eventos ----------
   function onQty(ev){
+    var ib=ev.target.closest('[data-i]'); if(ib){ var ih=ib.closest('[data-key]'); if(ih) openInfo(ih.getAttribute('data-key')); return }
     var gb=ev.target.closest('[data-g]');
     if(gb){ var gh=gb.closest('[data-key]'); if(gh) changeGift(gh.getAttribute('data-key'),+gb.getAttribute('data-g')); return }
     if(ev.target.closest('#goout')||ev.target.closest('#goout2')){ $('sheet').hidden=true; setCat(OUTLET); window.scrollTo({top:0,behavior:'smooth'}); return }
@@ -788,6 +812,7 @@ a.btn[aria-disabled="true"]{opacity:.35;pointer-events:none}
   $('close').addEventListener('click',function(){ $('sheet').hidden=true });
   $('sheet').addEventListener('click',function(ev){ if(ev.target===this) this.hidden=true });
   $('pdf').addEventListener('click',sendPdf);
+  $('iclose').addEventListener('click',function(){ $('info').hidden=true }); $('info').addEventListener('click',function(ev){ if(ev.target===this) this.hidden=true });
   function helpClose(){ $('help').hidden=true; try{ localStorage.setItem('hair-help','1') }catch(e){} }
   $('helpb').addEventListener('click',function(){ $('help').hidden=false }); $('hclose').addEventListener('click',helpClose); $('hok').addEventListener('click',helpClose);
   $('help').addEventListener('click',function(ev){ if(ev.target===this) helpClose() });

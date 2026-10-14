@@ -1,0 +1,572 @@
+{
+ "3302000": {
+  "desc": "Polvo decolorante multiuso con moléculas antiamarillo. Aclara hasta 7 niveles, incluso sobre cabello teñido; sirve para todas las técnicas, sobre o fuera del cuero cabelludo.",
+  "uso": "Mezclá 1:1,5 a 1:2 con Welloxon Perfect (1,9 % a 12 %) o Emulsión Color Touch, en bol no metálico. Sobre cuero cabelludo, máximo 6 % (20 vol). No superes 50 minutos.",
+  "fuente": "https://wella.com/professional/m/_master/PDF/Products/BlondorFactSheet.pdf",
+  "verificar": false
+ },
+ "99350115316": {
+  "desc": "Polvo decolorante con tecnología Plex (Bond Builder) incorporada, antiamarillo y sin polvo. Para todas las técnicas, sobre o fuera del cuero cabelludo, incluso sobre cabello teñido.",
+  "uso": "Se usa igual que Blondor Multi Blonde: 1:1,5 a 1:2 con Welloxon Perfect (sobre cuero cabelludo, máximo 6 %). Máximo 50 minutos; enjuagá y aplicá N.º 2 Bond Stabilizer 10 minutos.",
+  "fuente": "https://de.wella.professionalstore.com/product/blondorplex-800g/000000099350194607 | https://es.wella.professionalstore.com/product/blondor-multi-bl-powder/000000099350167318",
+  "verificar": false
+ },
+ "3185000": {
+  "desc": "Emulsión reveladora suave (6 vol) exclusiva para Color Touch. Para mismo nivel u oscurecer, tonalización, matizado suave de canas y servicios después de permanente o alisado.",
+  "uso": "Mezclá 1 parte de Color Touch con 2 de emulsión (30 g + 60 g). Aplicá sobre cabello seco o lavado y secado con toalla: 20 minutos, 15 con calor.",
+  "fuente": "https://www.wella.com/professional/m/Shadechart_LP/Wella-Professionals_Color-Touch_Leaflet.pdf",
+  "verificar": false
+ },
+ "3186000": {
+  "desc": "Emulsión reveladora intensiva (13 vol) para Color Touch. Da más intensidad y vibración al color, mayor cobertura de canas y mejor resultado en cabellos gruesos.",
+  "uso": "Mezclá 1 parte de Color Touch con 2 de emulsión (30 g + 60 g). Aplicá sobre cabello seco o lavado y secado con toalla: 20 minutos, 15 con calor.",
+  "fuente": "https://www.wella.com/professional/m/Shadechart_LP/Wella-Professionals_Color-Touch_Leaflet.pdf",
+  "verificar": false
+ },
+ "99350176753": {
+  "desc": "Oxidante en crema Welloxon Perfect 1,9 % (6 vol, “Pastel”) para coloración permanente Wella. Para tonalizar, matizar en tonos pastel y glosear sin aclarar.",
+  "uso": "Con Koleston Perfect: 1:1 para tonalización pastel; 1:2 para gloss (5 a 10 minutos) o para pastelizar rubios con tonos de las series 9/ y 10/.",
+  "fuente": "https://us.wella.professionalstore.com/en-US/blog/hair-color/this-or-that-koleston-xpress-vs-koleston-perfect | https://de.wella.professionalstore.com/product/welloxon-perfect-12percent-1000ml/000000099350176752",
+  "verificar": false
+ },
+ "99350176754": {
+  "desc": "Oxidante en crema Welloxon Perfect 3 % (10 vol) para coloración permanente Wella. Para trabajar en la misma altura de tono, oscurecer o depositar color sin aclarar.",
+  "uso": "Mezclá 1:1 con Koleston Perfect o Illumina Color. Tiempo de exposición: 30 a 40 minutos sin calor o 15 a 25 con calor.",
+  "fuente": "https://us.wella.professionalstore.com/en-US/blog/hair-color/this-or-that-koleston-xpress-vs-koleston-perfect",
+  "verificar": false
+ },
+ "81584886": {
+  "desc": "Oxidante en crema Welloxon Perfect 6 % (20 vol) para coloración permanente y decoloración Wella. Es el volumen para cubrir canas y aclarar hasta un nivel.",
+  "uso": "Mezclá 1:1 con Koleston Perfect o Illumina Color (Color Perfect: 1:2). Exposición: 30 a 40 minutos sin calor o 15 a 25 con calor. Con Blondor, es el máximo sobre cuero cabelludo.",
+  "fuente": "https://us.wella.professionalstore.com/en-US/blog/hair-color/this-or-that-koleston-xpress-vs-koleston-perfect | https://wella.com/professional/m/_master/PDF/Products/BlondorFactSheet.pdf",
+  "verificar": false
+ },
+ "81584889": {
+  "desc": "Oxidante en crema Welloxon Perfect 9 % (30 vol) para coloración permanente y decoloración Wella. Para aclarar hasta dos niveles.",
+  "uso": "Mezclá 1:1 con Koleston Perfect para aclarar dos niveles; 1:2 con tonos Special Blonde. Exposición: 30-40 minutos sin calor o 15-25 con calor. Con Blondor, solo fuera del cuero cabelludo.",
+  "fuente": "https://us.wella.professionalstore.com/en-US/blog/hair-color/this-or-that-koleston-xpress-vs-koleston-perfect | https://de.wella.professionalstore.com/product/welloxon-perfect-12percent-1000ml/000000099350176752",
+  "verificar": false
+ },
+ "1418000": {
+  "desc": "Oxidante en crema Welloxon Perfect 12 % (40 vol) para coloración permanente y decoloración Wella. Para aclarar hasta tres niveles y para los rubios especiales.",
+  "uso": "Mezclá 1:1 con Koleston Perfect para aclarar tres niveles; 1:2 con tonos Special Blonde. Exposición: 30-40 minutos sin calor o 15-25 con calor. Con Blondor, solo fuera del cuero cabelludo.",
+  "fuente": "https://us.wella.professionalstore.com/en-US/blog/hair-color/this-or-that-koleston-xpress-vs-koleston-perfect | https://de.wella.professionalstore.com/product/welloxon-perfect-12percent-1000ml/000000099350176752",
+  "verificar": false
+ },
+ "99350112178": {
+  "desc": "Aditivo reconstructor de enlaces que se agrega a la mezcla de color o decoloración para proteger el cabello durante el servicio. Se completa con el N.º 2.",
+  "uso": "Agregalo a la mezcla ya hecha: 2 g cada 30 g de color (60 g en Special Blonde y Color Touch); con Blondor, 6 g cada 30 g de polvo. Mismo oxidante y tiempo.",
+  "fuente": "https://fr.wella.professionalstore.com/product/wellaplex-n%C2%B01/000000099350121577",
+  "verificar": false
+ },
+ "99350124118": {
+  "desc": "Paso 2 del sistema Wellaplex: estabiliza los enlaces reconstruidos y reequilibra el pH del cabello después del servicio de color o decoloración.",
+  "uso": "Enjuagá el color sin shampoo y secá con toalla. Aplicá de raíz a puntas el doble de la cantidad de N.º 1 usada: 10 minutos (hasta 20 si está muy dañado). Enjuagá y lavá.",
+  "fuente": "https://fr.wella.professionalstore.com/product/wellaplex-n%C2%B01/000000099350121577",
+  "verificar": false
+ },
+ "linea-0": {
+  "desc": "Coloración permanente con tecnología ME+ y Metal Purifier. Cubre hasta 100 % de canas y aclara hasta 3 o 5 niveles según el tono. Más de 100 tonos.",
+  "uso": "Mezclá 1:1 con Welloxon Perfect: 3 % mismo tono, 6 % canas y un nivel, 9 % dos, 12 % tres. Special Blonde: 1:2 con 9 % o 12 %. 30-40 min sin calor, 15-25 con calor.",
+  "fuente": "https://us.wella.professionalstore.com/en-US/blog/hair-color/this-or-that-koleston-xpress-vs-koleston-perfect | https://de.wella.professionalstore.com/product/welloxon-perfect-12percent-1000ml/000000099350176752",
+  "verificar": false
+ },
+ "linea-1": {
+  "desc": "Coloración permanente para resultados naturales y luminosos, con tecnología Microlight y Metal Purifier. Cubre hasta 100 % de canas; tonos intermezclables.",
+  "uso": "Mezclá 1:1 con Welloxon Perfect (6 % o 9 %). Raíz a puntas o raíces: 30-40 minutos sin calor, 15-25 con calor. Solo medios y puntas: 20 minutos, 10 con calor.",
+  "fuente": "https://es.wella.professionalstore.com/product/illumina-color-4-castano-medio/000000099350175520 | https://loja.wella.com.br/illumina-color-60ml-illumina/p",
+  "verificar": false
+ },
+ "linea-2": {
+  "desc": "Coloración demipermanente en gel crema, sin aclarado (zero lift) y de pH equilibrado. Para gloss, matizado, tonalización y refresco de largos con mucho brillo.",
+  "uso": "Mezclá 1:1 con Activador Shinefinity 2 % (versión botella o bol y pincel). Aplicá sobre cabello lavado y secado con toalla, o seco para más intensidad: hasta 20 minutos, 15 con calor.",
+  "fuente": "https://es.wella.professionalstore.com/product/shinefinity-00-00/000000099350170519 | https://loja.wella.com.br/shinefinity-shinefinity/p",
+  "verificar": false
+ },
+ "linea-3": {
+  "desc": "Coloración demipermanente sin amoníaco (Plus, bajo amoníaco). Para mismo nivel u oscurecer, tonalizar y matizar canas; Plus cubre hasta 70 %. Dura unos 28 lavados.",
+  "uso": "Mezclá 1:2 con Emulsión Color Touch 1,9 % o 4 % (Plus: Emulsión Plus 4 %), por ejemplo 30 g + 60 g. Aplicá sobre cabello seco o húmedo: 20 minutos, 15 con calor.",
+  "fuente": "https://www.wella.com/professional/m/Shadechart_LP/Wella-Professionals_Color-Touch_Leaflet.pdf",
+  "verificar": false
+ },
+ "linea-4": {
+  "desc": "Coloración permanente de Wella para Latinoamérica: hasta 100 % de cobertura de canas, color intenso y duradero. Sublíneas naturales, marrones, rojos, rubios especiales y Special Mix.",
+  "uso": "Mezclá 1 parte de color con 2 de Welloxon Perfect 6 % (20 vol): oscurecer, mismo tono o aclarar 1-2 tonos. Raíces: 30-40 minutos sin calor, 15-25 con calor; emulsioná largos 5-10 minutos.",
+  "fuente": "https://br.wella.professionalstore.com/product/welloxon-perfect-6percent-20-vol-1l/23983-0",
+  "verificar": false
+ },
+ "99350167805": {
+  "desc": "Shampoo cremoso para cabello dañado por calor o decoloración, todo tipo de cabello. Con AHA, Omega-9 y Metal Purifier: limpia, quita metales y fortalece la fibra.",
+  "uso": "Primer paso del ritual Ultimate Repair. Sobre cabello mojado, distribuí en el cuero cabelludo, masajeá hasta hacer espuma y enjuagá. Repetí si hace falta.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/ultimate-repair/ultimate-repair-shampoo",
+  "verificar": false
+ },
+ "99350167818": {
+  "desc": "Acondicionador de nutrición profunda para cabello dañado, apto para todo tipo de cabello. Con AHA y Omega-9: desenreda, fortalece y repara visiblemente sin apelmazar.",
+  "uso": "Después del shampoo Ultimate Repair. Sobre cabello limpio y húmedo, aplicá de medios a puntas, dejá actuar 30 segundos y enjuagá con abundante agua.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/ultimate-repair/ultimate-repair-conditioner",
+  "verificar": false
+ },
+ "99350177870": {
+  "desc": "Máscara de reparación profunda para cabello dañado por calor, rayos UV, decoloración o daño mecánico. Con AHA y Omega-9: facilita el desenredo y reduce el frizz.",
+  "uso": "Paso de tratamiento intensivo, después del shampoo Ultimate Repair. Sobre cabello limpio y húmedo, aplicá de medios a puntas, dejá actuar 5 minutos y enjuagá bien.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/ultimate-repair/ultimate-repair-mask",
+  "verificar": false
+ },
+ "99350167835": {
+  "desc": "Crema protectora sin enjuague para cabello dañado, también rulos. Protege de rotura, rayos UV, calor (hasta 230 °C), daño mecánico y frizz; facilita el peinado.",
+  "uso": "Último paso del ritual, sobre cabello húmedo y antes del secado o herramientas de calor: 1 dosis en cabello fino, 2 en medio, 3-4 en grueso. No se enjuaga.",
+  "fuente": "https://www.wella.com/professional/en-US/products/hair-care/ultimate-repair/ultimate-repair-protective-leave-in | https://loja.wella.com.br/kit-completo-wella-ultimate-repair-salao-kit134/p",
+  "verificar": false
+ },
+ "99350167826": {
+  "desc": "Spray reparador sin enjuague para cabello dañado, todo tipo de cabello. Con AHA y Omega-9: desenreda, suaviza y reduce la rotura en 90 segundos.",
+  "uso": "Sobre cabello limpio secado con toalla: 5 pulsaciones en cabello fino, 10 en medio, 15 en grueso. Peiná, dejá actuar 90 segundos y no enjuagues; después peiná como siempre.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/ultimate-repair/ultimate-repair-miracle-hair-rescue | https://uk.wella.professionalstore.com/product/ultimate-repair-miracle-hair-rescue-95ml/000000099350188595",
+  "verificar": false
+ },
+ "99350184429": {
+  "desc": "Shampoo para cabello seco, áspero y con frizz. Con escualano, Omega-9 y Metal Purifier: limpia suavemente y prepara la fibra para suavidad y brillo sedoso.",
+  "uso": "Primer paso del ritual Ultimate Smooth. Sobre cabello húmedo, aplicá y hacé espuma; enjuagá y repetí si hace falta.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/ultimate-smooth/ultimate-smooth-shampoo",
+  "verificar": false
+ },
+ "99350191023": {
+  "desc": "Acondicionador para cabello seco y con frizz. Con escualano y Omega-9: suaviza, nutre y aporta brillo sedoso.",
+  "uso": "Después del shampoo Ultimate Smooth. Sobre cabello limpio y húmedo, de medios a puntas, dejá actuar entre 30 segundos y 3 minutos y enjuagá con abundante agua.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/ultimate-smooth/ultimate-smooth-conditioner",
+  "verificar": false
+ },
+ "99350185254": {
+  "desc": "Máscara intensiva para cabello seco, áspero y con frizz. Con escualano y Omega-9: suaviza en profundidad, nutre y aporta brillo.",
+  "uso": "Después del shampoo Ultimate Smooth. Sobre cabello limpio y húmedo, aplicá de medios a puntas, dejá actuar 5 a 10 minutos y enjuagá con abundante agua.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/ultimate-smooth/ultimate-smooth-mask",
+  "verificar": false
+ },
+ "99350188297": {
+  "desc": "Sérum sin enjuague para cabello seco y con frizz. Nutre, controla el frizz hasta 96 horas y protege del calor, rayos UV y humedad.",
+  "uso": "Último paso. De 1 a 3 dosis sobre cabello húmedo, de medios a puntas, antes del secado; o una pequeña cantidad sobre cabello seco como terminación. No se enjuaga.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/ultimate-smooth/ultimate-smooth-miracle-oil-serum",
+  "verificar": false
+ },
+ "1616671": {
+  "desc": "Shampoo de reparación intensa para cabello dañado. Con aminoácidos de seda (tecnología Silksteel) y Metal Purifier: repara la fibra y aumenta su resistencia a la rotura.",
+  "uso": "Primer paso del ritual Fusion. Sobre cabello húmedo, distribuí en el cuero cabelludo, masajeá hasta hacer espuma y enjuagá. Repetí si hace falta.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/fusion/fusion-intense-repair-shampoo",
+  "verificar": false
+ },
+ "1616676": {
+  "desc": "Acondicionador de reparación intensa para cabello dañado. Con aminoácidos de seda: protege de la rotura por cepillado y herramientas de calor, desenreda y suaviza.",
+  "uso": "Después del shampoo Fusion. Sobre cabello limpio y húmedo, de medios a puntas, dejá actuar 1 a 2 minutos y enjuagá con abundante agua.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/fusion/fusion-intense-repair-conditioner",
+  "verificar": false
+ },
+ "1616681": {
+  "desc": "Máscara de reparación intensa para cabello dañado. Con aminoácidos de seda e ingredientes acondicionadores intensivos: repara y protege el cabello frente a la rotura.",
+  "uso": "Después del shampoo Fusion. Sobre cabello limpio y húmedo, de medios a puntas, dejá actuar 5 minutos y enjuagá con abundante agua.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/fusion/fusion-intense-repair-mask",
+  "verificar": false
+ },
+ "1616688": {
+  "desc": "Tratamiento de salón Fusion Amino Refiller para cabello dañado. Sus aminoácidos de seda penetran hasta la corteza, rellenan la fibra y la protegen de la rotura.",
+  "uso": "Tras el shampoo Fusion, aplicá sobre cabello húmedo insistiendo en zonas porosas; idealmente con calor unos minutos. Seguí con acondicionador o máscara Fusion y enjuagá.",
+  "fuente": "https://de.wella.professionalstore.com/product/fusion-amino-refiller-70ml/000000099350145765 | https://uk.wella.professionalstore.com/product/fusion-amino-refiller-70ml/000000099350145766 | https://www.wella.com/professional/fr-FR/products/hair-care/fusion/fusion-amino-refiller",
+  "verificar": false
+ },
+ "1590711": {
+  "desc": "Shampoo realzador del brillo para todo tipo de cabello, con aceite de camelia, té blanco y Metal Purifier. Limpia en profundidad y deja el cabello luminoso.",
+  "uso": "Primer paso del ritual Oil Reflections. Sobre cabello húmedo, distribuí en el cuero cabelludo, masajeá hasta hacer espuma y enjuagá. Repetí si hace falta.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/oil-reflections/oil-reflections-luminous-reveal-shampoo",
+  "verificar": false
+ },
+ "1639234": {
+  "desc": "Acondicionador suavizante de acción rápida para todo tipo de cabello, con té blanco y aceites botánicos. Sella la hidratación y deja el cabello suave y luminoso.",
+  "uso": "Después del shampoo Oil Reflections. Sobre cabello limpio y húmedo, de medios a puntas, dejá actuar 30 segundos y enjuagá con abundante agua.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/oil-reflections/oil-reflections-luminous-instant-conditioner",
+  "verificar": false
+ },
+ "1598343": {
+  "desc": "Máscara nutritiva con aceites botánicos (programa Oleology). Nutre y rellena la estructura capilar; deja el cabello hasta 3 veces más suave y luminoso.",
+  "uso": "Después del shampoo Oil Reflections. Sobre cabello limpio y húmedo, de medios a puntas, dejá actuar 5 minutos y enjuagá con abundante agua.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/oil-reflections/oil-reflections-luminous-reboost-mask",
+  "verificar": false
+ },
+ "1478472": {
+  "desc": "Aceite capilar de textura liviana con aceites de palta y macadamia, para todo tipo de cabello. Nutre sin apelmazar, facilita el peinado y aporta brillo sedoso.",
+  "uso": "Sobre cabello secado con toalla, poné 1 a 3 dosis en las manos y distribuí de medios a puntas; después secá y peiná. También en seco como terminación. No se enjuaga.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/oil-reflections/oil-reflections-luminous-smoothing-oil | https://loja.wella.com.br/oil-reflections-oleo-capilar-oroil/p",
+  "verificar": true
+ },
+ "99240015900": {
+  "desc": "Shampoo para cabello coloreado y dañado, con Metal Purifier y antioxidantes. Ayuda a fijar y sellar el color, con hasta 8 semanas de protección, suavidad y brillo.",
+  "uso": "Primer paso del ritual Color Motion+. Sobre cabello húmedo, distribuí en el cuero cabelludo, masajeá hasta hacer espuma y enjuagá. Repetí si hace falta.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/color-motion/color-motion-shampoo",
+  "verificar": false
+ },
+ "99240015883": {
+  "desc": "Acondicionador de uso frecuente para cabello coloreado y dañado, con WellaPlex+ y Metal Purifier. Restaura la superficie del cabello, lo fortalece y aporta brillo intenso.",
+  "uso": "Después del shampoo Color Motion+. Sobre cabello limpio y húmedo, de medios a puntas, dejá actuar 1 a 2 minutos y enjuagá con abundante agua.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/color-motion/color-motion-conditioner",
+  "verificar": false
+ },
+ "99240015902": {
+  "desc": "Máscara intensiva Structure+ para cabello coloreado y dañado. Con WellaPlex: reconstruye los enlaces internos y mejora estructura, brillo y manejabilidad.",
+  "uso": "Una vez cada 1 o 2 semanas, después del shampoo. Sobre cabello limpio y húmedo, de medios a puntas, dejá actuar 5 minutos y enjuagá con abundante agua.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/color-motion/color-motion-structure-mask",
+  "verificar": false
+ },
+ "99240016215": {
+  "desc": "Tratamiento express post color de salón. Optimiza el pH tras la coloración, fortalece la estructura del cabello y mejora la retención de las moléculas de color.",
+  "uso": "Inmediatamente después del servicio de color, sobre cabello limpio y secado con toalla: aplicá de forma pareja, dejá actuar 30 segundos y enjuagá bien.",
+  "fuente": "https://us.wella.professionalstore.com/en-US/product/colormotion+-post-color-treatment/000000099350196088",
+  "verificar": false
+ },
+ "99240035354": {
+  "desc": "Shampoo micelar para ondas y rulos, con complejo Nourish-In (salvado de trigo y jojoba). Limpia suavemente sin resecar y aporta definición, nutrición y control del frizz.",
+  "uso": "Primer paso del ritual Nutricurls. Distribuí sobre cabello mojado, masajeá suavemente con movimientos circulares y enjuagá. Repetí si hace falta; apto para uso diario.",
+  "fuente": "https://loja.wella.com.br/nutricurls-shampoo1000ml-3614228865661-700858/p | https://www.wella.com/professional/es-ES/products/hair-care/nutricurls/nutricurls-micellar-curls-shampoo",
+  "verificar": false
+ },
+ "99240060951": {
+  "desc": "Acondicionador desenredante para ondas y rulos, con jojoba y pantenol. Nutre de forma liviana, define y deja el cabello suave y desenredado.",
+  "uso": "Después del shampoo Nutricurls, sobre cabello húmedo, de medios a puntas. Dejá actuar 30 segundos y enjuagá. Apto para uso diario.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/nutricurls/nutricurls-detangling-waves-curls-conditioner | https://loja.wella.com.br/wella-nutricurls-condicionador-condnutri/p",
+  "verificar": false
+ },
+ "99240061007": {
+  "desc": "Tratamiento de nutrición intensa para ondas y rulos, con jojoba y pantenol. Ayuda a prevenir el frizz y deja ondas y rizos definidos y suaves al tacto.",
+  "uso": "Después del shampoo Nutricurls. Sobre cabello limpio y húmedo, de medios a puntas, dejá actuar 5 minutos y enjuagá con abundante agua.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/nutricurls/nutricurls-deep-treatment-waves-curls-mask",
+  "verificar": false
+ },
+ "99240044504": {
+  "desc": "Bálsamo nutritivo sin enjuague para rulos, con jojoba y pantenol. Aporta nutrición intensa, definición, elasticidad y fijación suave; sirve de base para el peinado.",
+  "uso": "Aplicá de forma pareja sobre cabello húmedo, o sobre cabello seco entre lavados. No se enjuaga; después secá y peiná como siempre.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/nutricurls/nutricurls-curlixir-defining-balm",
+  "verificar": false
+ },
+ "99240009918": {
+  "desc": "Shampoo purificante para cabello y cuero cabelludo con acumulación de residuos, grasa o impurezas. Con extracto de loto: limpia en profundidad y deja sensación fresca.",
+  "uso": "Sobre cabello mojado, aplicá en el cuero cabelludo, masajeá hasta hacer espuma y enjuagá bien. Seguí con acondicionador o máscara para equilibrar la hidratación.",
+  "fuente": "https://www.wella.com/professional/en-AU/products/hair-care/invigo-balance/invigo-balance-aqua-pure-purifying-shampoo | https://loja.wella.com.br/invigo-balance-acqua-pure-shampoo-antirresiduos-balance/p",
+  "verificar": false
+ },
+ "4009911": {
+  "desc": "Shampoo con pigmentos violetas para rubios naturales, coloreados o con mechas y cabello plateado. Neutraliza reflejos amarillos y cobrizos y refresca el rubio frío.",
+  "uso": "Sobre cabello mojado, aplicá y hacé espuma. Dejá actuar 2 a 5 minutos según la intensidad del amarillo a neutralizar y enjuagá bien.",
+  "fuente": "https://loja.wella.com.br/invigo-blonde-recharge-shampoo-blondeshamp/p | https://www.wella.com/professional/de-DE/products/haarpflege/blonde-recharge/invigo-blonde-recharge-shampoo",
+  "verificar": false
+ },
+ "4012088": {
+  "desc": "Shampoo para cabello coloreado, con caviar de lima y pH optimizado. Ayuda a sellar el color en la fibra y le aporta intensidad y brillo.",
+  "uso": "Sobre cabello mojado, aplicá, hacé espuma y enjuagá con abundante agua; repetí si hace falta. Seguí con acondicionador o máscara Color Brilliance.",
+  "fuente": "https://loja.wella.com.br/wella-professionals-invigo-color-brilliance-shampoo-brillianceshamp/p | https://www.wella.com/professional/es-ES/products/hair-care/invigo-brilliance/invigo-brilliance-color-protection-fine-normal-hair-shampoo",
+  "verificar": false
+ },
+ "4012126": {
+  "desc": "Shampoo de nutrición profunda para cabello seco, con frizz o dañado. Con bayas de goji, pantenol y vitamina E: nutre y deja el cabello suave y sedoso.",
+  "uso": "Sobre cabello húmedo, aplicá y hacé espuma. Enjuagá con abundante agua y repetí si hace falta. Seguí con acondicionador o máscara Nutri-Enrich.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/invigo-nutri-enrich/invigo-nutri-enrich-deep-nourishing-shampoo | https://loja.wella.com.br/invigo-nutri-enrich-shampoo-250ml-8005610672397-700461/p",
+  "verificar": false
+ },
+ "4009907": {
+  "desc": "Acondicionador con pigmentos violetas para rubios fríos, naturales o aclarados. Neutraliza reflejos amarillos o cobrizos, nutre y deja el cabello suave.",
+  "uso": "Después del shampoo Blonde Recharge, sobre cabello limpio y húmedo, de medios a puntas. Dejá actuar 3 a 5 minutos según la intensidad buscada y enjuagá bien.",
+  "fuente": "https://loja.wella.com.br/invigo-blonde-recharge-condicionador-200ml-7896235353898-700474sc/p | https://www.wella.com/professional/de-DE/products/haarpflege/blonde-recharge/invigo-blonde-recharge-conditioner",
+  "verificar": false
+ },
+ "4012112": {
+  "desc": "Acondicionador de nutrición profunda para cabello seco o con frizz. Con bayas de goji: hidrata al instante, controla el frizz y deja el cabello suave y sedoso.",
+  "uso": "Después del shampoo Nutri-Enrich, sobre cabello limpio y húmedo, de medios a puntas evitando la raíz. Dejá actuar 1 a 3 minutos y enjuagá bien.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/invigo-nutri-enrich/invigo-nutri-enrich-deep-nourishing-conditioner | https://loja.wella.com.br/invigo-nutri-enrich-condicionador-enrichcond/p",
+  "verificar": false
+ },
+ "4012086": {
+  "desc": "Máscara intensiva para cabello coloreado, con caviar de lima y antioxidantes. Desenreda, mejora la superficie del cabello y realza intensidad y brillo del color.",
+  "uso": "Después del shampoo, sobre cabello limpio y húmedo, de medios a puntas. Dejá actuar 5 minutos y enjuagá con abundante agua. Usala 1 o 2 veces por semana.",
+  "fuente": "https://loja.wella.com.br/invigo-color-brilliance-mascara-brilliancemask/p | https://www.wella.com/professional/es-ES/products/hair-care/invigo-brilliance/invigo-brilliance-vibrant-color-fine-normal-hair-mask",
+  "verificar": false
+ },
+ "4012121": {
+  "desc": "Máscara de nutrición profunda para cabello seco, con frizz o dañado. Con bayas de goji: hidrata al instante, controla el frizz y aporta suavidad.",
+  "uso": "Después del shampoo, sobre cabello limpio y húmedo, de medios a puntas sin tocar la raíz. Dejá actuar 5 minutos y enjuagá. Usala 1 o 2 veces por semana.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-care/invigo-nutri-enrich/invigo-nutri-enrich-deep-nourishing-mask | https://loja.wella.com.br/invigo-nutri-enrich-mascara-enrichmask/p",
+  "verificar": false
+ },
+ "99240011196": {
+  "desc": "Laca de fijación ligera y secado rápido, con micropulverización. Fija peinados naturales sin endurecer y protege del calor, la humedad y los rayos UV.",
+  "uso": "Último paso, sobre el peinado terminado y cabello seco. Mantené el envase a distancia del cabello y pulverizá de forma pareja para fijar.",
+  "fuente": "https://www.wella.com/professional/en-AU/products/hair-styling/eimi-fixing/eimi-mistify-me-light-hairspray | https://uk.wella.professionalstore.com/product/eimi-mistify-me-light-300ml/000000099350195887",
+  "verificar": false
+ },
+ "1511641": {
+  "desc": "Espuma de volumen de fijación ligera. Da un volumen suave y natural y protege el cabello de la deshidratación y del calor durante el secado.",
+  "uso": "Agitá bien. Aplicá de forma pareja sobre cabello húmedo, de raíces a puntas, y secá con secador para dar forma y volumen.",
+  "fuente": "https://www.wella.com/professional/en-GB/products/hair-styling/eimi-volume/eimi-natural-volume-mousse | https://uk.wella.professionalstore.com/product/eimi-natural-volume-mousse-300ml/000000099350115488",
+  "verificar": false
+ },
+ "1511652": {
+  "desc": "Espuma de fijación extra fuerte para dar volumen y estructura al peinado. Protege el cabello de la deshidratación y del calor durante el secado.",
+  "uso": "Agitá bien, aplicá de forma pareja sobre cabello húmedo, de raíces a puntas, y secá con secador. Para más elevación, concentrá el producto en la raíz.",
+  "fuente": "https://www.wella.com/professional/en-GB/products/hair-styling/eimi-volume/eimi-volume-shape-control | https://es.wella.professionalstore.com/product/eimi-shape-control/000000099350115487",
+  "verificar": false
+ },
+ "1516049": {
+  "desc": "Spray voluminizador a base de azúcar, de fijación fuerte (nivel 3). Da volumen, textura y brillo, con un tacto flexible y adherente.",
+  "uso": "Pulverizá, trabajá con las palmas y modelá. Sobre cabello húmedo, para textura y volumen; sobre cabello seco, para un look más formal.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-styling/eimi-volume/eimi-volume-sugar-lift",
+  "verificar": false
+ },
+ "1511622": {
+  "desc": "Spray de terminación de fijación extra fuerte (4/4), para control total del peinado terminado. Protege de la humedad, los rayos UV y el calor; seca rápido.",
+  "uso": "Último paso, sobre el peinado terminado. Pulverizá de forma pareja a la distancia de un brazo, para fijar o para seguir trabajando el cabello.",
+  "fuente": "https://www.wella.com/professional/en-AU/products/hair-styling/eimi-fixing/eimi-super-set-finishing-spray",
+  "verificar": false
+ },
+ "1511690": {
+  "desc": "Spray protector térmico bifásico de fijación ligera (nivel 2). Protege del calor hasta 220 °C y deja el cabello suave y brillante.",
+  "uso": "Agitá bien y pulverizá a la distancia de un brazo, mechón por mechón, sobre cabello seco antes de usar planchita o buclera. No se enjuaga.",
+  "fuente": "https://www.wella.com/professional/es-ES/products/hair-styling/eimi-smooth/eimi-smooth-thermal-image",
+  "verificar": false
+ },
+ "1237675": {
+  "desc": "Bomba dosificadora para envases de 1000 ml de shampoo Wella Professionals. Dosifica con precisión en el lavacabezas y reduce el desperdicio.",
+  "uso": "Sacá la tapa del envase de 1000 ml, enroscá la bomba y presioná para dispensar la dosis de cada lavado.",
+  "fuente": "https://uk.wella.professionalstore.com/product/care-pump-1l/000000099350147229",
+  "verificar": false
+ },
+ "1237676": {
+  "desc": "Bomba dosificadora para envases de 500 ml de máscaras y tratamientos Wella Professionals, pensada para su viscosidad. Dosifica la cantidad justa con menos desperdicio.",
+  "uso": "Sacá la tapa del envase de 500 ml, enroscá la bomba y presioná para dispensar la dosis de cada aplicación.",
+  "fuente": "https://es.wella.professionalstore.com/product/dosificador-para-ultimate-repair-mascarilla/000000099350168140 | https://uk.wella.professionalstore.com/product/pump-500ml/000000099350118788",
+  "verificar": false
+ },
+ "99350052751": {
+  "desc": "Botella plástica de 240 ml con pico aplicador, para aplicar productos líquidos de forma precisa y controlada.",
+  "uso": "Llená con el producto o la mezcla, cerrá y aplicá directamente sobre raíces o secciones presionando la botella.",
+  "fuente": "https://de.wella.professionalstore.com/product/londa-applikatorflasche-240ml/000000099350118088",
+  "verificar": true
+ },
+ "81156705": {
+  "desc": "Dispensador de papel de aluminio para servicios de color. Permite cortar y plegar el aluminio rápidamente; admite rollos de hasta 12 cm de ancho.",
+  "uso": "Cargá un rollo de hasta 12 cm de ancho, tirá del largo que necesitás y cortalo con el dispensador.",
+  "fuente": "https://uk.wella.professionalstore.com/product/wella-alufoil-dispenser-wrapmaster-black/000000099350130928 | https://es.wella.professionalstore.com/product/wrapmaster/000000099350130928",
+  "verificar": false
+ },
+ "0470000": {
+  "desc": "Papel de aluminio plateado de 20 micras, en rollos de 12 cm × 50 m. Resistente y flexible, para mechas y técnicas de aclarado.",
+  "uso": "Cortá el largo según la mecha, apoyá la sección sobre el aluminio, aplicá el producto y plegá para aislarla durante la exposición.",
+  "fuente": "https://es.wella.professionalstore.com/product/papel-de-aluminio-plateado/000000099350130929 | https://uk.wella.professionalstore.com/product/aluminium-foil-silver/000000099350130929",
+  "verificar": false
+ },
+ "81550909": {
+  "desc": "Set de rollos de papel de aluminio de 20 micras en cuatro colores, de 12 cm × 50 m. Resistente y flexible, para mechas y aclarados.",
+  "uso": "Usá cada color para identificar secciones o fórmulas. Cortá el largo necesario, aplicá el producto solo sobre el lado plateado y plegá.",
+  "fuente": "https://es.wella.professionalstore.com/product/set-de-papel-aluminio-4-colores/000000099350130930 | https://us.wella.professionalstore.com/en-US/product/multi-color-smooth-foil-rolls/000000099350130930",
+  "verificar": false
+ },
+ "0408000": {
+  "desc": "Vaso medidor graduado para dosificar y mezclar con precisión colorantes, oxidantes y otros productos de color Wella Professionals.",
+  "uso": "Medí colorante y oxidante con la escala graduada según la proporción de mezcla de cada línea y mezclá hasta homogeneizar.",
+  "fuente": "https://uk.wella.professionalstore.com/product/wella-measuring-cup-with-scale/000000000081654072",
+  "verificar": true
+ },
+ "99350180072": {
+  "desc": "Shampoo del Sistema 1, para cabello natural (sin químicos) con afinamiento leve. Limpia el cuero cabelludo de sebo e impurezas que obstruyen los folículos.",
+  "uso": "Paso 1. Sobre cabello mojado, masajeá suavemente el cuero cabelludo, dejá actuar 1 minuto y enjuagá bien. Usá el sistema completo al menos 3 veces por semana.",
+  "fuente": "https://www.nioxin.com/es-ES/products/shampoo/system-1-shampoo | https://www.nioxin.com/en-US/blog/about-hair-loss/how-to-use-nioxin-system-kits",
+  "verificar": false
+ },
+ "99350180112": {
+  "desc": "Acondicionador liviano del Sistema 1, para cabello natural (sin químicos) con afinamiento leve. Hidrata cuero cabelludo y fibra, aporta textura y resistencia.",
+  "uso": "Paso 2, después del shampoo. Aplicalo desde el cuero cabelludo hasta las puntas, dejá actuar 1 a 3 minutos y enjuagá bien. Al menos 3 veces por semana.",
+  "fuente": "https://www.nioxin.com/es-ES/products/conditioner/system-1-conditioner | https://www.nioxin.com/en-US/blog/about-hair-loss/how-to-use-nioxin-system-kits",
+  "verificar": false
+ },
+ "99350180130": {
+  "desc": "Tratamiento sin enjuague del Sistema 1, para cabello natural (sin químicos) con afinamiento leve. Nutre el cuero cabelludo y da cuerpo al cabello.",
+  "uso": "Paso 3. Sobre cabello secado con toalla, aplicalo en el cuero cabelludo y las zonas a tratar, masajeá para distribuir parejo. No se enjuaga; peiná como siempre.",
+  "fuente": "https://www.nioxin.com/es-ES/products/leave-in/system-1-leave-in-treatment",
+  "verificar": false
+ },
+ "99350180548": {
+  "desc": "Kit de tres pasos del Sistema 1, para cabello natural (sin químicos) con afinamiento leve. Según la marca, mayor grosor y densidad visibles a los 30 días.",
+  "uso": "Incluye shampoo 150 ml, acondicionador 150 ml y tratamiento sin enjuague 50 ml. Usá los tres en orden, al menos 3 veces por semana. La fuente no indica duración.",
+  "fuente": "https://www.nioxin.com/es-ES/products/nioxin-systems/system-kit-1 | https://loja.wella.com.br/kit-150-150-50ml-afinamento-leve-701516/p",
+  "verificar": false
+ },
+ "99350179978": {
+  "desc": "Shampoo del Sistema 2, para cabello natural (sin químicos) con afinamiento avanzado. Limpia el cuero cabelludo de sebo e impurezas que obstruyen los folículos.",
+  "uso": "Paso 1. Sobre cabello mojado, masajeá suavemente el cuero cabelludo, dejá actuar 1 minuto y enjuagá bien. Usá el sistema completo al menos 3 veces por semana.",
+  "fuente": "https://www.nioxin.com/es-ES/products/shampoo/system-2-shampoo | https://www.nioxin.com/en-US/blog/about-hair-loss/how-to-use-nioxin-system-kits",
+  "verificar": false
+ },
+ "99350180115": {
+  "desc": "Acondicionador liviano del Sistema 2, para cabello natural (sin químicos) con afinamiento avanzado. Hidrata cuero cabelludo y fibra y aporta resistencia al cabello.",
+  "uso": "Paso 2, después del shampoo. Aplicalo desde el cuero cabelludo hasta las puntas, dejá actuar 1 a 3 minutos y enjuagá bien. Al menos 3 veces por semana.",
+  "fuente": "https://www.nioxin.com/es-ES/products/conditioner/system-2-conditioner | https://www.nioxin.com/en-US/blog/about-hair-loss/how-to-use-nioxin-system-kits",
+  "verificar": false
+ },
+ "99350179975": {
+  "desc": "Tratamiento sin enjuague del Sistema 2, para cabello natural (sin químicos) con afinamiento avanzado. Refresca el cuero cabelludo y da volumen; con protección UV.",
+  "uso": "Paso 3. Sobre cabello secado con toalla, aplicalo en el cuero cabelludo y las zonas a tratar, masajeá para distribuir parejo. No se enjuaga; peiná como siempre.",
+  "fuente": "https://www.nioxin.com/es-ES/products/leave-in/system-2-leave-in-treatment",
+  "verificar": false
+ },
+ "99350180567": {
+  "desc": "Kit de tres pasos del Sistema 2, para cabello natural (sin químicos) con afinamiento avanzado. Según la marca, mayor grosor y densidad visibles a los 30 días.",
+  "uso": "Incluye shampoo 150 ml, acondicionador 150 ml y tratamiento sin enjuague 40 ml. Usá los tres en orden, al menos 3 veces por semana. La fuente no indica duración.",
+  "fuente": "https://www.nioxin.com/es-ES/products/nioxin-systems/system-kit-2 | https://loja.wella.com.br/kit-150-150-40ml-afinamento-avancado-701521/p",
+  "verificar": false
+ },
+ "99350179988": {
+  "desc": "Shampoo del Sistema 3, para cabello teñido, dañado o químicamente tratado con afinamiento leve. Limpia el cuero cabelludo de sebo e impurezas que obstruyen los folículos.",
+  "uso": "Paso 1. Sobre cabello mojado, masajeá suavemente el cuero cabelludo, dejá actuar 1 minuto y enjuagá bien. Usá el sistema completo al menos 3 veces por semana.",
+  "fuente": "https://www.nioxin.com/es-ES/products/shampoo/system-3-shampoo | https://www.nioxin.com/en-US/blog/about-hair-loss/how-to-use-nioxin-system-kits",
+  "verificar": false
+ },
+ "99350179982": {
+  "desc": "Acondicionador liviano del Sistema 3, para cabello teñido, dañado o químicamente tratado con afinamiento leve. Hidrata y fortalece la fibra frente al daño y el quiebre.",
+  "uso": "Paso 2, después del shampoo. Aplicalo desde el cuero cabelludo hasta las puntas, dejá actuar 1 a 3 minutos y enjuagá bien. Al menos 3 veces por semana.",
+  "fuente": "https://www.nioxin.com/es-ES/products/conditioner/system-3-conditioner | https://www.nioxin.com/en-US/blog/about-hair-loss/how-to-use-nioxin-system-kits",
+  "verificar": false
+ },
+ "99350179985": {
+  "desc": "Tratamiento sin enjuague del Sistema 3, para cabello teñido, dañado o químicamente tratado con afinamiento leve. Equilibra el cuero cabelludo y aporta humedad y brillo.",
+  "uso": "Paso 3. Sobre cabello secado con toalla, aplicalo en el cuero cabelludo y las zonas a tratar, masajeá para distribuir parejo. No se enjuaga; peiná como siempre.",
+  "fuente": "https://www.nioxin.com/es-ES/products/leave-in/system-3-leave-in-treatment",
+  "verificar": false
+ },
+ "99350180573": {
+  "desc": "Kit de tres pasos del Sistema 3, para cabello teñido, dañado o químicamente tratado con afinamiento leve. Según la marca, mayor grosor y densidad visibles a los 30 días.",
+  "uso": "Incluye shampoo 150 ml, acondicionador 150 ml y tratamiento sin enjuague 50 ml. Usá los tres en orden, al menos 3 veces por semana. La fuente no indica duración.",
+  "fuente": "https://www.nioxin.com/es-ES/products/nioxin-systems/system-kit-3 | https://loja.wella.com.br/kit-sistema-3-150-150-50ml-espessamento-para-colorido-afinamento-leve-701526/p",
+  "verificar": false
+ },
+ "99350179999": {
+  "desc": "Shampoo del Sistema 4, para cabello teñido, dañado o químicamente tratado con afinamiento avanzado. Limpia el cuero cabelludo de sebo e impurezas que obstruyen los folículos.",
+  "uso": "Paso 1. Sobre cabello mojado, masajeá suavemente el cuero cabelludo, dejá actuar 1 minuto y enjuagá bien. Usá el sistema completo al menos 3 veces por semana.",
+  "fuente": "https://www.nioxin.com/es-ES/products/shampoo/system-4-shampoo | https://www.nioxin.com/en-US/blog/about-hair-loss/how-to-use-nioxin-system-kits",
+  "verificar": false
+ },
+ "99350179992": {
+  "desc": "Acondicionador liviano del Sistema 4, para cabello teñido, dañado o químicamente tratado con afinamiento avanzado. Hidrata cuero cabelludo y fibra y aporta resistencia al cabello.",
+  "uso": "Paso 2, después del shampoo. Aplicalo desde el cuero cabelludo hasta las puntas, dejá actuar 1 a 3 minutos y enjuagá bien. Al menos 3 veces por semana.",
+  "fuente": "https://www.nioxin.com/es-ES/products/conditioner/system-4-conditioner | https://www.nioxin.com/en-US/blog/about-hair-loss/how-to-use-nioxin-system-kits",
+  "verificar": false
+ },
+ "99350179996": {
+  "desc": "Tratamiento sin enjuague del Sistema 4, para cabello teñido, dañado o químicamente tratado con afinamiento avanzado. Refresca el cuero cabelludo y da volumen; con protección UV.",
+  "uso": "Paso 3. Sobre cabello secado con toalla, aplicalo en el cuero cabelludo y las zonas a tratar, masajeá para distribuir parejo. No se enjuaga; peiná como siempre.",
+  "fuente": "https://www.nioxin.com/es-ES/products/leave-in/system-4-leave-in-treatment",
+  "verificar": false
+ },
+ "99350180579": {
+  "desc": "Kit de tres pasos del Sistema 4, para cabello teñido, dañado o químicamente tratado con afinamiento avanzado. Según la marca, mayor grosor y densidad visibles a los 30 días.",
+  "uso": "Incluye shampoo 150 ml, acondicionador 150 ml y tratamiento sin enjuague 40 ml. Usá los tres en orden, al menos 3 veces por semana. La fuente no indica duración.",
+  "fuente": "https://www.nioxin.com/es-ES/products/nioxin-systems/system-kit-4 | https://loja.wella.com.br/kit-sistema-4-150-150-40ml-espessamento-para-cabelo-colorido-afinamento-avancado-701531/p",
+  "verificar": false
+ },
+ "99350180139": {
+  "desc": "Máscara fortalecedora antiquiebre (hoy Anti-Breakage Strengthening Mask), apta para todo tipo de cabello. Hidrata, nutre y protege la fibra contra el quiebre.",
+  "uso": "Después del shampoo, distribuila pareja sobre el cabello húmedo, de largos a puntas. Dejá actuar 3 a 5 minutos y enjuagá bien. No requiere gorro ni calor.",
+  "fuente": "https://loja.wella.com.br/mascara-de-reparacao-antiquebra-deep-repair-mask-150ml-701507/p | https://www.nioxin.com/es-ES/products/hair-breakage/anti-breakage-strengthening-mask",
+  "verificar": false
+ },
+ "99350180136": {
+  "desc": "Sérum sin enjuague para cabello con afinamiento: fortalece hebras débiles y frágiles de raíz a puntas y protege la cutícula. Se suma a cualquier Sistema.",
+  "uso": "Masajealo dos veces por día con las yemas en zonas de baja densidad y línea de nacimiento, de raíz a puntas. Sin enjuague. Con un Sistema, antes del paso 3.",
+  "fuente": "https://www.nioxin.com/es-ES/products/hair-breakage/hair-booster-serum",
+  "verificar": false
+ },
+ "99350180238": {
+  "desc": "Tratamiento exfoliante de cuero cabelludo, de uso exclusivo en salón, tipo \"facial\" capilar. Remueve acumulación de producto e impurezas y renueva la piel por exfoliación.",
+  "uso": "Aplicá una pequeña cantidad sobre el cuero cabelludo húmedo y masajeá con las yemas, insistiendo en las zonas a tratar. Enjuagá con abundante agua. Repetí cada 30 a 45 días.",
+  "fuente": "https://www.nioxin.com/es-ES/products/salon/scalp-renew-dermabrasion-treatment",
+  "verificar": false
+ },
+ "99240017017": {
+  "desc": "Shampoo con aceites de argán, sándalo y cedro, para todo tipo de cabello. Limpia suavemente y aporta brillo y suavidad sin dar peso.",
+  "uso": "Sobre cabello mojado, masajeá hasta hacer espuma y enjuagá. Repetí si hace falta. Seguí con el Acondicionador o la Máscara Dark Oil.",
+  "fuente": "https://www.sebastianprofessional.com/es-ES/products/dark-oil/dark-oil-smooth-and-shine-shampoo | https://loja.wella.com.br/kit-sebastian-professional-penetraitt-hydre-e-dark-oil-kit41/p",
+  "verificar": false
+ },
+ "99240017020": {
+  "desc": "Acondicionador liviano de la línea Dark Oil, para todo tipo de cabello. Desenreda y suaviza, con brillo sedoso, sin apelmazar.",
+  "uso": "Después del shampoo, aplicalo sobre cabello mojado de medios a puntas, evitando la raíz. Dejá actuar 2 minutos y enjuagá bien.",
+  "fuente": "https://www.sebastianprofessional.com/es-ES/products/dark-oil/dark-oil-smooth-and-shine-conditioner | https://loja.wella.com.br/condicionador-sebastian-dark-oil-cdark/p",
+  "verificar": false
+ },
+ "99240017061": {
+  "desc": "Tratamiento nutritivo Dark Oil para cabello seco, opaco o dañado. Nutre en profundidad sin dar peso y aporta brillo y manejabilidad.",
+  "uso": "Sobre cabello lavado y húmedo, aplicá en largos y puntas. Dejá actuar 2 a 5 minutos y enjuagá bien.",
+  "fuente": "https://www.sebastianprofessional.com/es-ES/products/dark-oil/dark-oil-smooth-and-shine-mask | https://loja.wella.com.br/kit-sebastian-professional-penetraitt-hydre-e-dark-oil-kit41/p | https://loja.wella.com.br/kit-sebastian-professional-dark-oil-duo-kit93/p",
+  "verificar": false
+ },
+ "1126748": {
+  "desc": "Shampoo reconstructor para cabello dañado por procesos químicos (color, decoloración, alisados) o calor. Limpia suavemente mientras fortalece la fibra y devuelve suavidad.",
+  "uso": "Sobre cabello mojado, masajeá hasta hacer espuma y enjuagá bien. Repetí si hace falta. Seguí con el Acondicionador o la Máscara Penetraitt.",
+  "fuente": "https://loja.wella.com.br/penetraitt-shampoo-pentraittshamp/p | https://www.sebastianprofessional.com/es-ES/products/penetraitt/penetraitt-rescue-repair-shampoo",
+  "verificar": false
+ },
+ "1126779": {
+  "desc": "Acondicionador reconstructor para cabello dañado o sensibilizado químicamente. Desenreda, ayuda a reponer fuerza y elasticidad y reduce el quiebre.",
+  "uso": "Después del shampoo, retirá el exceso de agua y aplicá de medios a puntas. Masajeá suavemente, dejá actuar unos 2 minutos y enjuagá bien.",
+  "fuente": "https://loja.wella.com.br/penetraitt-condicionador-pentraittcond/p | https://www.sebastianprofessional.com/es-ES/products/penetraitt/penetraitt-rescue-repair-conditioner",
+  "verificar": false
+ },
+ "1127117": {
+  "desc": "Tratamiento intensivo para cabello muy dañado o tratado químicamente. Acondiciona en profundidad y ayuda a recuperar fuerza, suavidad y brillo.",
+  "uso": "Sobre cabello lavado, retirá el exceso de agua y aplicá en todo el largo, insistiendo en las zonas más dañadas. Dejá actuar 2 a 3 minutos y enjuagá bien.",
+  "fuente": "https://www.sebastianprofessional.com/es-ES/products/penetraitt/penetraitt-rescue-repair-mask | https://loja.wella.com.br/mascara-sebastian-penetraitt-mpenetraitt/p",
+  "verificar": true
+ },
+ "1126984": {
+  "desc": "Acondicionador hidratante de uso diario para cabello normal a seco. Repone hidratación, suaviza y ayuda a controlar el frizz, con brillo.",
+  "uso": "Después del shampoo, retirá el exceso de agua y aplicá una cantidad del tamaño de una moneda, concentrada en las puntas. Dejá actuar 2 minutos y enjuagá.",
+  "fuente": "https://loja.wella.com.br/hydre-condicionador-hydrecond/p | https://loja.wella.com.br/kit-sebastian-professional-hydre-duo-kit30/p",
+  "verificar": false
+ },
+ "1311766": {
+  "desc": "Shampoo de brillo para todo tipo de cabello, con extracto de cristales. Limpia y alisa la superficie de la fibra para que refleje más la luz.",
+  "uso": "Aplicá sobre cabello mojado, masajeá suavemente el cuero cabelludo y enjuagá. Repetí si hace falta.",
+  "fuente": "https://loja.wella.com.br/trilliance-shampoo-250ml-8005610590455-700351/p",
+  "verificar": false
+ },
+ "1311777": {
+  "desc": "Acondicionador de brillo para todo tipo de cabello, con extracto de cristales. Desenreda y alisa la cutícula para que el cabello refleje más la luz.",
+  "uso": "Aplicá sobre cabello limpio y húmedo, concentrándolo en las puntas, y después enjuagá.",
+  "fuente": "https://loja.wella.com.br/trilliance-condicionador-250ml-700352sc/p",
+  "verificar": false
+ },
+ "99350154687": {
+  "desc": "Aceite liviano de tratamiento y styling para todo tipo de cabello. Aporta brillo y suavidad, controla frizz y estática sin dejar residuo graso.",
+  "uso": "Aplicá 1 o 2 pulsaciones sobre cabello húmedo o seco, de medios a puntas, evitando la raíz. No se enjuaga. Secá o peiná como prefieras; podés reaplicar en seco.",
+  "fuente": "https://loja.wella.com.br/kit-sebastian-professional-dark-oil-duo-kit93/p | https://www.sebastianprofessional.com/es-ES/products/dark-oil/dark-oil-smooth-and-shine-styling-oil",
+  "verificar": false
+ },
+ "1127169": {
+  "desc": "Crema de styling sin enjuague con extractos botánicos, para todo tipo de cabello. Hidrata y acondiciona mientras modela, con fijación flexible y brillo.",
+  "uso": "Sobre cabello húmedo, distribuí y dejá secar al aire para un acabado suave, o usá difusor o bucleadora para más definición. En seco da textura y control. No se enjuaga.",
+  "fuente": "https://loja.wella.com.br/potion-9-creme-modelador-150ml-8005610592787-700354/p | https://www.sebastianprofessional.com/es-ES/products/potion-9/potion-9-leave-in-conditioner-and-styling-cream",
+  "verificar": false
+ },
+ "1127211": {
+  "desc": "Versión en spray de Potion 9, sin enjuague, para cabello fino. Acondiciona y restaura sin dar peso, con fijación liviana y protección UV.",
+  "uso": "Pulverizá de forma pareja sobre cabello húmedo. Secá al aire para ondas suaves, con secador para un look sedoso o con herramientas de calor para rizos definidos. No se enjuaga.",
+  "fuente": "https://loja.wella.com.br/potion-9-lite-leave-in-150ml-700356sc/p | https://www.sebastianprofessional.com/es-ES/products/potion-9/potion-9-lite-conditioning-styling-spray",
+  "verificar": false
+ },
+ "1127199": {
+  "desc": "Flow Taming Elixir: loción cremosa sin enjuague para todo tipo de cabello, sobre todo con frizz. Suaviza, controla el frizz y protege del calor.",
+  "uso": "Poné una pequeña cantidad en las manos y distribuila sobre cabello húmedo, pasando los dedos entre los mechones. No se enjuaga. Después secá y modelá como prefieras.",
+  "fuente": "https://loja.wella.com.br/flow-taming-elixir-serum-capilar-140ml-8005610578910-700359/p",
+  "verificar": false
+ },
+ "1129398": {
+  "desc": "Spray protector térmico con complejo de brillo. Protege el cabello del calor de secador, planchita y bucleadora, aporta brillo sedoso y un acondicionamiento liviano.",
+  "uso": "Agitá para mezclar las fases y pulverizá sobre cabello húmedo o seco antes de usar herramientas de calor. No se enjuaga. Después secá, alisá o modelá.",
+  "fuente": "https://loja.wella.com.br/kit-sebastian-trilliant-re-shaper-kit149/p | https://www.sebastianprofessional.com/es-ES/products/specialists/trilliant-shine-and-heat-protection-spray",
+  "verificar": false
+ }
+}
