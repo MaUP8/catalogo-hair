@@ -9,7 +9,7 @@
   "minimo": 4500,
   "outlet": {
     "activo": false,
-    "mecanica": "descuento",
+    "mecanica": "1+1",
     "tramos": [
       {
         "meses": 3,
@@ -20,6 +20,6 @@
         "pct": 25
       }
     ],
-    "meses": 6
+    "meses": 3
   }
 }
