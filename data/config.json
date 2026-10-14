@@ -8,7 +8,7 @@
   ],
   "minimo": 4500,
   "outlet": {
-    "activo": true,
+    "activo": false,
     "mecanica": "descuento",
     "tramos": [
       {
