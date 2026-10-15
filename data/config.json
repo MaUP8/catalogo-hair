@@ -4,6 +4,11 @@
       "id": "mauricio",
       "nombre": "Mauricio Prato",
       "tel": "59892775633"
+    },
+    {
+      "id": "pablo",
+      "nombre": "Pablo Nebril",
+      "tel": "59899811160"
     }
   ],
   "minimo": 4500,
